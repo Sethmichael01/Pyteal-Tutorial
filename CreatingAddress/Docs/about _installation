@@ -1,0 +1,15 @@
+PyTeal is a Python language binding for Algorand Smart Contracts (ASC1s).
+
+Algorand Smart Contracts are implemented using a new language that is stack-based, called Transaction Execution Approval Language (TEAL). This a non-Turing complete language that allows branch forwards but prevents recursive logic to maximize safety and performance.
+
+However, TEAL is essentially an assembly language. With PyTeal, developers can express smart contract logic purely using Python. PyTeal provides high level, functional programming style abstactions over TEAL and does type checking at construction time.
+
+PyTeal hasn't been security audited. Use it at your own risk.
+
+Install
+pyteal requires python version >= 3.6
+To Intall pyteal use the following command below in your CLI
+pip3 install pyteal
+
+To learn more visit: https://developer.algorand.org/
+For full code base, visit the Algorand Github account: https://github.com/algorand/pyteal
